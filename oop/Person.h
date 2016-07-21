@@ -16,4 +16,7 @@
 
 - (NSString*)fullname;
 
+- (float)interestEarned;
+- (float)balanceAfterInterest;
+
 @end
