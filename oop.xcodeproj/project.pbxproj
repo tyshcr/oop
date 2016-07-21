@@ -16,6 +16,12 @@
 		9D5365001D412BC8005BDDAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5364FE1D412BC8005BDDAB /* LaunchScreen.storyboard */; };
 		9D53650B1D412BC8005BDDAB /* oopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D53650A1D412BC8005BDDAB /* oopTests.m */; };
 		9D5365161D412BC8005BDDAB /* oopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5365151D412BC8005BDDAB /* oopUITests.m */; };
+		9D5365261D412D34005BDDAB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5365251D412D34005BDDAB /* Person.m */; };
+		9D5365291D412E28005BDDAB /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5365281D412E28005BDDAB /* Wallet.m */; };
+		9D53652C1D412F3C005BDDAB /* CreditCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D53652B1D412F3C005BDDAB /* CreditCard.m */; };
+		9D53652D1D41314A005BDDAB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5365251D412D34005BDDAB /* Person.m */; };
+		9D53652E1D41314D005BDDAB /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5365281D412E28005BDDAB /* Wallet.m */; };
+		9D53652F1D413150005BDDAB /* CreditCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D53652B1D412F3C005BDDAB /* CreditCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		9D5365111D412BC8005BDDAB /* oopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5365151D412BC8005BDDAB /* oopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oopUITests.m; sourceTree = "<group>"; };
 		9D5365171D412BC8005BDDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D5365241D412D34005BDDAB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9D5365251D412D34005BDDAB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9D5365271D412E28005BDDAB /* Wallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wallet.h; sourceTree = "<group>"; };
+		9D5365281D412E28005BDDAB /* Wallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wallet.m; sourceTree = "<group>"; };
+		9D53652A1D412F3C005BDDAB /* CreditCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCard.h; sourceTree = "<group>"; };
+		9D53652B1D412F3C005BDDAB /* CreditCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +115,12 @@
 		9D5364EC1D412BC8005BDDAB /* oop */ = {
 			isa = PBXGroup;
 			children = (
-				9D5365231D412CEE005BDDAB /* Models */,
+				9D5365241D412D34005BDDAB /* Person.h */,
+				9D5365251D412D34005BDDAB /* Person.m */,
+				9D5365271D412E28005BDDAB /* Wallet.h */,
+				9D5365281D412E28005BDDAB /* Wallet.m */,
+				9D53652A1D412F3C005BDDAB /* CreditCard.h */,
+				9D53652B1D412F3C005BDDAB /* CreditCard.m */,
 				9D5364F01D412BC8005BDDAB /* AppDelegate.h */,
 				9D5364F11D412BC8005BDDAB /* AppDelegate.m */,
 				9D5364F31D412BC8005BDDAB /* ViewController.h */,
@@ -142,13 +159,6 @@
 				9D5365171D412BC8005BDDAB /* Info.plist */,
 			);
 			path = oopUITests;
-			sourceTree = "<group>";
-		};
-		9D5365231D412CEE005BDDAB /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +293,9 @@
 			files = (
 				9D5364F51D412BC8005BDDAB /* ViewController.m in Sources */,
 				9D5364F21D412BC8005BDDAB /* AppDelegate.m in Sources */,
+				9D5365291D412E28005BDDAB /* Wallet.m in Sources */,
+				9D5365261D412D34005BDDAB /* Person.m in Sources */,
+				9D53652C1D412F3C005BDDAB /* CreditCard.m in Sources */,
 				9D5364FB1D412BC8005BDDAB /* oop.xcdatamodeld in Sources */,
 				9D5364EF1D412BC8005BDDAB /* main.m in Sources */,
 			);
@@ -292,7 +305,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D53652F1D413150005BDDAB /* CreditCard.m in Sources */,
+				9D53652D1D41314A005BDDAB /* Person.m in Sources */,
 				9D53650B1D412BC8005BDDAB /* oopTests.m in Sources */,
+				9D53652E1D41314D005BDDAB /* Wallet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +524,7 @@
 				9D53651C1D412BC8005BDDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D53651D1D412BC8005BDDAB /* Build configuration list for PBXNativeTarget "oopTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +533,7 @@
 				9D53651F1D412BC8005BDDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D5365201D412BC8005BDDAB /* Build configuration list for PBXNativeTarget "oopUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +542,7 @@
 				9D5365221D412BC8005BDDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
