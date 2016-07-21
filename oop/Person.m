@@ -24,7 +24,11 @@
 }
 
 - (float)balanceAfterInterest {
-    return 1.0; // _balance + [self interestEarned];
+    float totalBalance = 0.0;
+    for (Wallet *wallet in _wallets) {
+        totalBalance = totalBalance + [wallet balanceAfterInterest];
+    }
+    return totalBalance;
 }
 
 @end
