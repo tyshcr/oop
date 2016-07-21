@@ -152,4 +152,42 @@
     XCTAssertEqual([person interestEarned], 171.00, "Person interest earned is incorrect");
 }
 
+- (void)testPersonBalance {
+    CreditCard *card1 = [[CreditCard alloc] init];
+    card1.name = @"Visa";
+    card1.balance = 100.00;
+    card1.interestRate = 1.0;
+    
+    CreditCard *card2 = [[CreditCard alloc] init];
+    card2.name = @"MasterCard";
+    card2.balance = 500.00;
+    card2.interestRate = 2.0;
+    
+    Wallet *wallet1 = [[Wallet alloc] init];
+    wallet1.name = @"My Wallet 1";
+    wallet1.creditCards = [@[card1,card2] mutableCopy]; // $11 interest
+    
+    CreditCard *card3 = [[CreditCard alloc] init];
+    card3.name = @"Discover";
+    card3.balance = 1000.00;
+    card3.interestRate = 10.0; // $100 interest
+    
+    CreditCard *card4 = [[CreditCard alloc] init];
+    card4.name = @"AmericanExpress";
+    card4.balance = 1200.00;
+    card4.interestRate = 5.0; // $60 interest
+    
+    Wallet *wallet2 = [[Wallet alloc] init];
+    wallet2.name = @"My Wallet 2";
+    wallet2.creditCards = [@[card3,card4] mutableCopy]; // $160 interest
+    
+    Person *person = [[Person alloc] init];
+    person.firstname = @"Christopher";
+    person.lastname = @"Tysh";
+    person.wallets = [@[wallet1,wallet2] mutableCopy];
+    
+    XCTAssertEqual([person interestEarned], 171.00, "Person interest earned is incorrect");
+    XCTAssertEqual([person balanceAfterInterest], 2971.00, "Person balance is incorrect");
+}
+
 @end
