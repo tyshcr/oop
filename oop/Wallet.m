@@ -20,7 +20,11 @@
 }
 
 - (float)balanceAfterInterest {
-    return 1.0; // _balance + [self interestEarned];
+    float totalBalance = 0.0;
+    for (CreditCard *card in _creditCards) {
+        totalBalance = totalBalance + [card balanceAfterInterest];
+    }
+    return totalBalance;
 }
 
 @end
