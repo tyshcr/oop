@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Transaction.h"
 
-@interface CreditCard : NSObject
+@interface CreditCard : NSObject <Transaction>
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, assign) float balance;

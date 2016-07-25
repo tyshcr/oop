@@ -18,4 +18,13 @@
     return _balance + [self interestEarned];
 }
 
+#pragma mark - Transaction Protocol Methods
+- (void)increaseBalance:(float)amount {
+    
+}
+
+- (void)decreaseBalance:(float)amount {
+    
+}
+
 @end
