@@ -49,6 +49,7 @@
 		9D23CC0A1D467817005FF8A1 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
 		9D23CC0B1D4679FF005FF8A1 /* Person+Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Settings.h"; sourceTree = "<group>"; };
 		9D23CC0C1D4679FF005FF8A1 /* Person+Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+Settings.m"; sourceTree = "<group>"; };
+		9D23CC0E1D4681AD005FF8A1 /* Interest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interest.h; sourceTree = "<group>"; };
 		9D5364EA1D412BC8005BDDAB /* oop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5364EE1D412BC8005BDDAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D5364F01D412BC8005BDDAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,6 +134,7 @@
 				9D23CC071D467760005FF8A1 /* GiftCard.h */,
 				9D23CC081D467760005FF8A1 /* GiftCard.m */,
 				9D23CC0A1D467817005FF8A1 /* Transaction.h */,
+				9D23CC0E1D4681AD005FF8A1 /* Interest.h */,
 				9D5364F01D412BC8005BDDAB /* AppDelegate.h */,
 				9D5364F11D412BC8005BDDAB /* AppDelegate.m */,
 				9D5364F31D412BC8005BDDAB /* ViewController.h */,
