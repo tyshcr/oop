@@ -18,8 +18,4 @@
     self.lastname = newLastname;
 }
 
-- (void)updatePassword:(NSString*)newPassword {
-    
-}
-
 @end
