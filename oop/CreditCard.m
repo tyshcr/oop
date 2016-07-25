@@ -10,6 +10,7 @@
 
 @implementation CreditCard
 
+#pragma mark - Interest Protocol Methods
 - (float)interestEarned {
     return _balance * (_interestRate / 100);
 }

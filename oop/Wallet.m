@@ -11,6 +11,7 @@
 
 @implementation Wallet
 
+#pragma mark - Interest Protocol Methods
 - (float)interestEarned {
     float totalInterestEarned = 0.0;
     for (CreditCard *card in _creditCards) {

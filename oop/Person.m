@@ -15,6 +15,7 @@
     return [NSString stringWithFormat:@"%@ %@", _firstname, _lastname];
 }
 
+#pragma mark - Interest Protocol Methods
 - (float)interestEarned {
     float totalInterestEarned = 0.0;
     for (Wallet *wallet in _wallets) {

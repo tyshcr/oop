@@ -7,13 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Interest.h"
 
-@interface Wallet : NSObject
+@interface Wallet : NSObject <Interest>
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSMutableArray *creditCards;
-
-- (float)interestEarned;
-- (float)balanceAfterInterest;
 
 @end

@@ -7,15 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Interest.h"
 #import "Transaction.h"
 
-@interface CreditCard : NSObject <Transaction>
+@interface CreditCard : NSObject <Transaction, Interest>
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, assign) float balance;
 @property (nonatomic, assign) float interestRate;
-
-- (float)interestEarned;
-- (float)balanceAfterInterest;
 
 @end
