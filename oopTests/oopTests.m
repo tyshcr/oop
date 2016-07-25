@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "Person.h"
+#import "Person+Settings.h"
 #import "Wallet.h"
 #import "CreditCard.h"
 
@@ -188,6 +189,15 @@
     
     XCTAssertEqual([person interestEarned], 171.00, "Person interest earned is incorrect");
     XCTAssertEqual([person balanceAfterInterest], 2971.00, "Person balance is incorrect");
+}
+
+- (void)testPersonUpdateName {
+    Person *person = [[Person alloc] init];
+    
+    [person setFirstname:@"Christopher"];
+    [person setLastname:@"Tysh"];
+    
+    XCTAssertEqualObjects([person fullname], @"Christopher Tysh", "Names are not equal");
 }
 
 @end
