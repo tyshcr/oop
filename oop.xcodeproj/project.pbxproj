@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D23CC091D467760005FF8A1 /* GiftCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D23CC081D467760005FF8A1 /* GiftCard.m */; };
 		9D5364EF1D412BC8005BDDAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5364EE1D412BC8005BDDAB /* main.m */; };
 		9D5364F21D412BC8005BDDAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5364F11D412BC8005BDDAB /* AppDelegate.m */; };
 		9D5364F51D412BC8005BDDAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5364F41D412BC8005BDDAB /* ViewController.m */; };
@@ -42,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D23CC071D467760005FF8A1 /* GiftCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftCard.h; sourceTree = "<group>"; };
+		9D23CC081D467760005FF8A1 /* GiftCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftCard.m; sourceTree = "<group>"; };
+		9D23CC0A1D467817005FF8A1 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
 		9D5364EA1D412BC8005BDDAB /* oop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5364EE1D412BC8005BDDAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D5364F01D412BC8005BDDAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,6 +125,9 @@
 				9D5365281D412E28005BDDAB /* Wallet.m */,
 				9D53652A1D412F3C005BDDAB /* CreditCard.h */,
 				9D53652B1D412F3C005BDDAB /* CreditCard.m */,
+				9D23CC071D467760005FF8A1 /* GiftCard.h */,
+				9D23CC081D467760005FF8A1 /* GiftCard.m */,
+				9D23CC0A1D467817005FF8A1 /* Transaction.h */,
 				9D5364F01D412BC8005BDDAB /* AppDelegate.h */,
 				9D5364F11D412BC8005BDDAB /* AppDelegate.m */,
 				9D5364F31D412BC8005BDDAB /* ViewController.h */,
@@ -292,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D5364F51D412BC8005BDDAB /* ViewController.m in Sources */,
+				9D23CC091D467760005FF8A1 /* GiftCard.m in Sources */,
 				9D5364F21D412BC8005BDDAB /* AppDelegate.m in Sources */,
 				9D5365291D412E28005BDDAB /* Wallet.m in Sources */,
 				9D5365261D412D34005BDDAB /* Person.m in Sources */,
