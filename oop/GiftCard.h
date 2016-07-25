@@ -9,16 +9,16 @@
 #import <Foundation/Foundation.h>
 #import "Transaction.h"
 
-@interface GiftCard : NSObject <Transaction>
+@interface GiftCard : NSObject
 
 typedef enum {
     TARGET,
     WALMART,
     CRATE_AND_BARREL,
     AMAZON
-} brand;
+} Brand;
 
-@property (nonatomic, assign) brand brand;
+@property (nonatomic, assign) Brand brand;
 @property (nonatomic, assign) float balance;
 
 @end
