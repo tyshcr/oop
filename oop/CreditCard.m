@@ -20,11 +20,11 @@
 
 #pragma mark - Transaction Protocol Methods
 - (void)increaseBalance:(float)amount {
-    
+    _balance = _balance + amount;
 }
 
 - (void)decreaseBalance:(float)amount {
-    
+    _balance = _balance - amount;
 }
 
 @end

@@ -11,11 +11,12 @@
 @implementation GiftCard
 
 - (void)increaseBalance:(float)amount {
-    
+    _balance = _balance + amount;
 }
 
 - (void)decreaseBalance:(float)amount {
-    
+    _balance = _balance - amount;
+    // TODO: account for fact that gift card balance cannot be less than $0.00
 }
 
 @end
