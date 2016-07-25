@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Transaction.h"
 
-@interface GiftCard : NSObject
+@interface GiftCard : NSObject <Transaction>
 
 typedef enum {
     TARGET,
