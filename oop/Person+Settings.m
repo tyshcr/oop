@@ -10,8 +10,12 @@
 
 @implementation Person (Settings)
 
-- (void)updateName:(NSString*)newName {
-    
+- (void)updateFirstname:(NSString*)newFirstname {
+    self.firstname = newFirstname;
+}
+
+- (void)updateLastname:(NSString*)newLastname {
+    self.lastname = newLastname;
 }
 
 - (void)updatePassword:(NSString*)newPassword {

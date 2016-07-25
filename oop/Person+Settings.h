@@ -10,7 +10,8 @@
 
 @interface Person (Settings)
 
-- (void)updateName:(NSString*)newName;
+- (void)updateFirstname:(NSString*)newFirstname;
+- (void)updateLastname:(NSString*)newLastname;
 - (void)updatePassword:(NSString*)newPassword;
 
 @end
